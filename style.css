@@ -1,0 +1,269 @@
+.t1
+{
+    color: rgb(60, 87, 174);
+    font-size: 35px;
+    margin-top: 50px;
+    margin-left: 75px;
+    font-family: "Oswald", sans-serif;
+}
+.lot
+{
+    margin-top: 27px;
+}
+#sk
+{
+    margin-top: 27px;
+    margin-left: 50px;
+}
+.se
+{
+border-radius: 40px;    
+}
+.p1{
+    margin-left: 75px;
+    margin-top: 20px;
+}
+.shop {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #1757c6;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+.shop:hover {
+    background-color: #117dea;
+}
+.shop::after {
+    content: ' ➔';
+    font-weight: normal;
+  }
+  .sh{
+    margin-left: 75px;
+    margin-top: 10px;
+  }
+  .sm
+  {
+    margin-top: 150px;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    padding: 20px;
+    margin: 0 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-name {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 16px;
+    color: #1e7d22;
+    font-weight: bold;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-left: 10px;
+}
+
+.discount {
+    color: #ff5722;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.buy-btn {
+    background-color: #0c69c6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buy-btn:hover {
+    background-color: #437fd3;
+}
+.VIEW {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #1757c6;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+.VIEW:hover {
+    background-color: #117dea;
+}
+.vm
+{
+    text-align: center;
+}
+.about
+{
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+.aboutp
+{
+    text-align: center;
+}
+footer
+{
+    background-color: #4fabd5;
+}
+.contact
+{
+    margin-left: 22px;
+    font-family: "Kanit", sans-serif;
+}
+.ch
+{
+    text-align: end;
+    margin-top: -75px;
+    margin-right: 22px;
+    font-family: "Kanit", sans-serif;
+}
+.ws{
+    margin-left: 1440px;
+    font-size: 35px;
+}
+.ws:hover
+{
+    color: #1e7d22;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .t1 {
+        font-size: 28px;
+        margin-left: 15px;
+    }
+    .p1 {
+        font-size: 14px;
+        margin-left: 15px;
+    }
+    .se
+    {
+ margin-right: 75px;
+    }
+    .shop {
+        font-size: 14px;
+        padding: 10px 20px;
+        margin-left: 15px;
+    }
+    .sm {
+        margin-top: 80px;
+    }
+    .product-card img {
+        width: 80px; /* Reduced image size */
+    }
+    .buy-btn {
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+    .ws {
+        margin-left: 85%;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .t1 {
+        font-size: 32px;
+        margin-left: 40px;
+    }
+    .p1 {
+        font-size: 16px;
+        margin-left: 40px;
+    }
+    .shop {
+        font-size: 15px;
+        padding: 12px 25px;
+        margin-left: 40px;
+    }
+    .product-container {
+        justify-content: space-between; /* Adjust product placement */
+        margin: 30px;
+    }
+    .product-card {
+        width: 45%;
+        margin: 15px;
+    }
+    .ws {
+        margin-left: 85%;
+    }
+    /* Extra large devices (desktops, 1025px and above) */
+@media only screen and (min-width: 1025px) {
+    .t1 {
+        font-size: 40px;
+        margin-left: 75px;
+    }
+    .p1 {
+        font-size: 20px;
+        margin-left: 75px;
+    }
+    .shop {
+        font-size: 16px;
+        padding: 15px 30px;
+        margin-left: 75px;
+    }
+    .product-container {
+        justify-content: space-between;
+        margin: 50px;
+    }
+    .product-card {
+        width: 20%; /* Original size for large screens */
+        margin: 20px;
+    }
+    .product-card img {
+        width: 100px;
+    }
+    .buy-btn {
+        font-size: 14px;
+    }
+    .ws {
+        margin-left: -1440px;
+    }
+}
